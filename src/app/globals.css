@@ -19,3 +19,9 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.user-select-none {
+  user-select: none;
+  -webkit-user-select: none; /* For Safari */
+  -ms-user-select: none; /* For Internet Explorer/Edge */
+}
