@@ -8,7 +8,12 @@ const Home: FC = () => {
       <div className="flex gap-4">
         <Link href="/singleplayer">
           <button className="py-4 px-12 bg-black rounded-full font-bold">
-            Play
+            Single Player
+          </button>
+        </Link>
+        <Link href="/multiplayer">
+          <button className="py-4 px-12 bg-black rounded-full font-bold">
+            Multiplayer
           </button>
         </Link>
       </div>
